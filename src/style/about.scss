@@ -1,0 +1,17 @@
+.about-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .about-image {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-bio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+}
