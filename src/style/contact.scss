@@ -30,3 +30,29 @@
         }
     }
 }
+
+@media (max-width: 1050px) {
+    .contact-page-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 200px;
+
+        .contact-image {
+            width: 100%;
+            justify-self: center;
+            margin: 0px;
+            grid-row: 2;
+        }
+
+        .right-column {
+            width: 90%;
+            grid-row: 1;
+        }
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1050px) {
+    .contact-page-wrapper {
+        grid-template-rows: 300px 300px;
+    }
+
+}
