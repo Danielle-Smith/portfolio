@@ -27,7 +27,7 @@
         border-right: 0px;
         border-left: 0px;
         border-bottom: 1px solid $teal;
-        background-color: transparent;
+        // background-color:white !important; 
         transition: 0.5s all ease-in-out;
         font-size: 1.1em;
         margin-bottom: 21px;
@@ -35,6 +35,7 @@
         &:focus {
             outline: none;
             border-bottom: 1px solid $dark-teal;
+            // background-color:white !important;
         }
     }
 }

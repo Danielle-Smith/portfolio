@@ -16,8 +16,15 @@
         .auth-form-wrapper {
             @include input-element();
             @include base-grid();
+            background-color: $offwhite !important;
             grid-gap: 21px;
             padding: 42px;
+
+            input {
+                &:focus {
+                    background-color: $offwhite !important;
+                }
+            }
       
             .form-group {
               display: flex;

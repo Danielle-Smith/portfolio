@@ -2,6 +2,7 @@
   "name": "react-router",
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React/Router applications.",
+  "proxy": "https://api.devcamp.space/logged_in",
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -25,7 +26,7 @@
     "sass",
     "css module"
   ],
-  "author": "Your Name Here",
+  "author": "Danielle",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bottega-code-school/js-builder/issues"

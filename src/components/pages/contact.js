@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../contact-form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import contactImg from "../../../static/assets/images/contact.jpg";
 
@@ -36,6 +37,9 @@ export default function () {
 
                         <div className="text">Lehi, UT</div>
                     </div>
+                </div>
+                <div>
+                    <ContactForm />
                 </div>
             </div>
         </div>
