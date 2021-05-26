@@ -35,3 +35,17 @@ form {
     margin-top: 20px;
 }
 
+@media (max-width: 699px) {
+    .contact-page-wrapper {
+        form {
+            width: 300px;
+        }
+
+        .input-group {
+            input {
+                width: 278px;
+            }
+        }
+    }
+}
+

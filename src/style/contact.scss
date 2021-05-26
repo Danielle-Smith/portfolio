@@ -20,33 +20,19 @@
         align-items: center;
 
         .icon {
-        font-size: 2em;
-        color: $teal;
+            font-size: 2em;
+            color: $teal;
         }
 
         .text {
-        font-size: 1.5em;
-        font-weight: 900;;
-        margin-left: 21px;
+            font-size: 1.5em;
+            font-weight: 900;;
+            margin-left: 21px;
         }
     }
 }
 
-@media (max-width: 700px) {
-   
-    .bullet-point-group {
-        .icon {
-            font-size: 1em;
-        }
-
-        .text {
-            font-size: 1em;
-        }
-    }
-
-}
-
-@media (min-width: 700px) and (max-width: 1050px) {
+@media (max-width: 1050px) {
     .contact-page-wrapper {
         grid-template-columns: 1fr;
         grid-template-rows: 200px 100px;
@@ -59,20 +45,10 @@
         .right-column {
             width: 90%;
             grid-row: 1;
+            padding: 5%;
         }
     }
 }
 
-@media (max-width: 699px) {
-    .bullet-point-group {
-        .icon {
-            font-size: 1em;
-        }
 
-        .text {
-            font-size: 1em;
-        }
-    }
-
-}
 
