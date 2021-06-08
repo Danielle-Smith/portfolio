@@ -8,6 +8,7 @@
     }
 
     .right-side {
+        display: flex;
         a {
             margin-left: 15px;
             cursor: pointer;
@@ -16,6 +17,33 @@
 
             &:hover {
                 color: $dark-teal;
+            }
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $charcoal;
+            transition: 0.2s ease-in;
+            width: 32px;
+            height: 25px;
+            margin: 0px;
+
+            &:hover {
+                font-size: 1.2em;
+                color: $charcoal;
+            }
+        }
+
+        .name {
+            color: $charcoal;
+            text-decoration: none;
+            margin: 0px;
+            padding-left: 10px;
+
+            &:hover {
+                color: $charcoal;
             }
         }
     }
@@ -47,4 +75,6 @@
         }
     }
 }
+
+
 

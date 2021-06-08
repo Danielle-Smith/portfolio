@@ -996,16 +996,7 @@ textarea {
   margin-left: 21px;
 }
 
-@media (max-width: 700px) {
-  .bullet-point-group .icon {
-    font-size: 1em;
-  }
-  .bullet-point-group .text {
-    font-size: 1em;
-  }
-}
-
-@media (min-width: 700px) and (max-width: 1050px) {
+@media (max-width: 1050px) {
   .contact-page-wrapper {
     grid-template-columns: 1fr;
     grid-template-rows: 200px 100px;
@@ -1016,15 +1007,7 @@ textarea {
   .contact-page-wrapper .right-column {
     width: 90%;
     grid-row: 1;
-  }
-}
-
-@media (max-width: 699px) {
-  .bullet-point-group .icon {
-    font-size: 1em;
-  }
-  .bullet-point-group .text {
-    font-size: 1em;
+    padding: 5%;
   }
 }
 
@@ -1083,4 +1066,13 @@ form {
   margin-top: 20px;
 }
 
-/*# sourceMappingURL=app-fd27aba2732f7f8f37eb.map*/
+@media (max-width: 699px) {
+  .contact-page-wrapper form {
+    width: 300px;
+  }
+  .contact-page-wrapper .input-group input {
+    width: 278px;
+  }
+}
+
+/*# sourceMappingURL=app-6aae51b5b851b99fd758.map*/
