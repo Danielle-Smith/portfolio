@@ -14,11 +14,15 @@ export default class PortfolioContainer extends Component {
     }
 
     getPortfolioItems = () => {
+        this.setState({
+            isLoading: true
+        });
         axios
             .get('https://daniellesmith.devcamp.space/portfolio/portfolio_items')
             .then(response => {
                 this.setState({
-                    data: response.data.portfolio_items
+                    data: response.data.portfolio_items,
+                    isLoading: false
                 });
             })
             .catch(error => {
@@ -39,7 +43,7 @@ export default class PortfolioContainer extends Component {
 
     render() {
         if (this.state.isLoading) {
-            return <div>Loading...</div>;
+            return <div className="loading">Loading...</div>;
         }
 
         return (
