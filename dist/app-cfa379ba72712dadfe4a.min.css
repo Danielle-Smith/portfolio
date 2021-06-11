@@ -485,6 +485,10 @@ textarea {
   display: flex;
 }
 
+.nav-wrapper .right-side {
+  display: flex;
+}
+
 .nav-wrapper .right-side a {
   margin-left: 15px;
   cursor: pointer;
@@ -494,6 +498,34 @@ textarea {
 
 .nav-wrapper .right-side a:hover {
   color: #207b88;
+}
+
+.nav-wrapper .right-side .social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #42454a;
+  transition: 0.2s ease-in;
+  width: 32px;
+  height: 25px;
+  margin: 0px;
+  font-size: 1.3em;
+}
+
+.nav-wrapper .right-side .social-icon:hover {
+  font-size: 1.5em;
+  color: #42454a;
+}
+
+.nav-wrapper .right-side .name {
+  color: #42454a;
+  text-decoration: none;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.nav-wrapper .right-side .name:hover {
+  color: #42454a;
 }
 
 .nav-wrapper .nav-link-wrapper {
@@ -521,6 +553,10 @@ textarea {
 .nav-wrapper .nav-link-wrapper .nav-link-active {
   border-bottom: 1px solid black;
   color: black;
+}
+
+.loading {
+  padding: 10px;
 }
 
 .portfolio-items-wrapper {
@@ -553,6 +589,7 @@ textarea {
 .portfolio-items-wrapper .portfolio-item-wrapper .img-text-wrapper .subtitle {
   transition: 1s ease-in-out;
   color: transparent;
+  padding: 15px;
 }
 
 .portfolio-items-wrapper .portfolio-item-wrapper .img-text-wrapper:hover .subtitle {
@@ -1075,4 +1112,4 @@ form {
   }
 }
 
-/*# sourceMappingURL=app-6aae51b5b851b99fd758.map*/
+/*# sourceMappingURL=app-fe753bf3ccf73e8b5d0b.map*/
